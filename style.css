@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+
+.cabeça, .pescoço{
+    display: inline-block;
+
+}
+
+
+
+header{
+    margin: auto;
+    height: 550px;
+    min-width: 300px;
+    max-width: 1000px;
+    text-align: center;
+    -webkit-column-count:2;
+    height: 1000px;
+}
+
+header h1{
+    line-height: 2em;
+    font-size: 1.2em;
+    padding-top: 400px;   
+ 
+}
+
+
+.botao {
+     padding: 10px;
+     margin-left: 10vw;
+     margin-right:10vw;
+     border: 1px solid black;
+     border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: gray;
+    text-decoration:underline;}
+    
+.cabeça img {
+    margin: 0;
+    height: 968px;
+    max-width: 490px;
+    width: 48vw;
+    
+    
+}
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main h2{
+    background-color: rgba(0, 0, 0, 0.596);
+    text-align: center;
+    margin-top: -34px;
+    padding: 20px;
+    color: white;
+}
+main h3, p{
+     padding: 15px;
+     text-align: center;
+}
+
+p.img1{
+    background-image: url(imagens/01.jpg);
+    background-position: center center;
+    background-size: cover;
+    box-shadow:5px 10px 10px inset   rgba(0, 0, 0, 0.308);
+    min-width: 300px;
+    max-width: 1000px;
+    height: 800px;
+}
+p.img2{
+    background-image: url(imagens/02.jpg);
+    background-position: center top;
+    background-size: cover;
+    box-shadow:5px 10px 10px inset   rgba(0, 0, 0, 0.308);
+    min-width: 300px;
+    max-width: 1000px;
+    height: 800px;
+}
+p.img3{
+    background-image: url(imagens/03.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    box-shadow:5px 10px 10px inset   rgba(0, 0, 0, 0.308);
+    min-width: 300px;
+    max-width: 1000px;
+    height: 800px;
+}
+p.img4{
+    background-image: url(imagens/04.jpg);
+    background-position: center ;
+    background-size: cover;
+    box-shadow:5px 10px 10px inset   rgba(0, 0, 0, 0.308);
+    min-width: 300px;
+    max-width: 1000px;
+    height: 800px;
+}
+p.img5{
+    background-image: url(imagens/05.jpg);
+    background-position: center right;
+    background-size: cover;
+    box-shadow:5px 10px 10px inset   rgba(0, 0, 0, 0.308);
+    min-width: 300px;
+    max-width: 1000px;
+    height: 800px;
+}
+
+footer{
+    padding: 20px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    box-shadow:5px 10px 10px inset   rgba(0, 0, 0, 0.308);
+    background-color: rgba(128, 128, 128, 0.096);
+    
+}
